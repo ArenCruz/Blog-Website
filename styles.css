@@ -186,6 +186,9 @@
     height: 80%;
     width: 100px;
     margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #p1Content{
     height: 80%;
@@ -335,4 +338,8 @@ footer{
     color: #9ca0a3;
     font-family: Rubik;
     font-size: 10px;
+}
+.compImg{
+    height: 90%;
+    width: 90%;
 }

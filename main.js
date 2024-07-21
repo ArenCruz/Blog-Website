@@ -1,5 +1,4 @@
 
-
 const main = document.getElementsByClassName('hero')[0];
 const navBar = document.getElementsByClassName('navBar')[0];
 const home = document.getElementById('home');
@@ -42,7 +41,8 @@ let postOneTC = document.getElementsByClassName('postONeTC')[0];
 let postTwoTC = document.getElementsByClassName('postTwoTC')[0];
 let postThreeTC = document.getElementsByClassName('postThree')[0];
 
-
+let compImg = document.createElement('img');
+compImg.classList.add('compImg');
 const blogContainer = document.createElement('div');
 blogContainer.classList.add('blogContainer');
 const titleAgain = document.createElement('h1');
@@ -51,13 +51,11 @@ titleAgain.classList.add('titleAgain');
 
 const aboutMe = () => {
     postOne.remove();
-    postTwo.remove();
-    postThree.remove();
     latestLabel.innerHTML = "A B O U T";
     latestContainer.append(aboutContainer);
     title.innerHTML = "I AM REN";
     aboutContainer.append(title);
-    blogContainer.remove();
+   
 
     const contain = document.createElement('div');
     contain.classList.add("contain");
@@ -70,13 +68,13 @@ const aboutMe = () => {
     postOneTC.remove();
     postTwoTC.remove();
     postThreeTC.remove();
+
 }
 
 const homePage = () => {
-    blogContainer.remove();
+   
     latestContainer.append(postOne);
-    latestContainer.append(postTwo);
-    latestContainer.append(postThree);
+
     latestLabel.innerHTML = "L A T E S T";
     aboutContainer.remove();
     title.remove();
@@ -93,12 +91,12 @@ const postsPage = () => {
     paragraph.remove();
     latestLabel.innerHTML = "P O S T S";
     postOne.remove();
-    postTwo.remove();
-    postThree.remove();
     latestLabel.insertAdjacentElement("afterend",postsContainer);
     postsContainer.insertAdjacentElement('afterbegin',p1);
     p1.insertAdjacentElement('afterbegin', p1Img);
     p1Img.insertAdjacentElement('afterend', p1Content);
+    compImg.src = 'computer.jpg';
+    p1Img.insertAdjacentElement('afterbegin', compImg);
     p1Content.insertAdjacentElement('afterbegin', p1Title);
     p1Content.insertAdjacentElement('beforeend', p1Date);
     p1Title.innerHTML = "WHAT COMPUTER SCIENCE HAS TAUGHT ME IN 1 YEAR";
@@ -116,9 +114,6 @@ window.addEventListener('scroll', () => {
 
 const test1 = () => {
     window.location.href = "article.html";
-    //navBar.insertAdjacentElement("afterend",blogContainer);
-    //blogContainer.insertAdjacentElement('afterbegin', titleAgain);
-    //titleAgain.innerHTML = "WHAT COMPUTER SCIENCE HAS TAUGHT ME IN 1 YEAR"
 }
 
 
