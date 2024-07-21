@@ -1,0 +1,338 @@
+.hero{
+    margin: 0;
+    padding: 0;
+    height: 520px;
+    background-color: #CED4DA;
+    width: 100%;
+   
+}
+.mainHero{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background-color: #CED4DA;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#name{
+    font-size: 50px;
+    font-family: Rubik;
+    position: absolute;
+    top: -15px;
+    color: white;
+    font-weight: 200;
+    left: 55px;
+}
+#divider{
+    background-color: white;
+    height: 70px;
+    width: 2px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    left: 200px;
+}
+.navBar{ /*the actual header*/
+    background-color: #212529;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: sticky;
+    top: 0px;
+    margin-bottom: 40px;
+    transition: all 1.2s;
+}
+.navBar-scrolled{
+    opacity: 0;
+}
+
+.items{
+    display: inline;
+    margin-left: 10px;
+    font-family: Rubik;
+    color: white;
+    font-size: 10px;
+}
+#contact{
+    height: 40px;
+    width: 80px;
+    font-family: Rubik;
+    color: white;
+    background-color: #212529;
+    border-color: white;
+    cursor: pointer;
+}
+.itemsInside{
+    margin-left: 50px;
+}
+
+#latestLabel{
+    background-color: #CED4DA;
+    display: inline;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+    margin-left: 35px;
+    height: 100px;
+    width: 50px;
+    font-family: Rubik;
+    font-size: 10px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.latestContainer{
+    width: 90%;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.posts{
+    background-color:#DEE2E6;
+    height: 250px;
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 60px;
+    box-shadow: 5px 5px 5px #212529;
+}
+.items:hover{
+    color:#D5BDAF;
+    cursor: pointer;
+}
+#aboutContainer{
+    background-color: #212529;
+    width: 100%;
+    height: 70%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    padding-bottom: 20px;
+}
+#paragraph{
+    color: white;
+    font-size: 14px;
+    font-family: Rubik;
+    width: 300px;
+    display: inline-block;
+    
+
+}
+#aboutTitle{
+    font-family: Rubik;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    display: block;
+    margin-left: 60px;
+}
+#logo{
+    height: 170px;
+    width: 170px;
+    display:inline-block;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+.contain{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.postsContainer{
+    height: auto;
+    width: 95%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#p1{
+    background-color: #CED4DA;
+    border-style: solid;
+    border-color: #212529;
+    width: 80%;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    box-shadow: 5px 5px 5px #212529;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#p1Img{
+    background-color: #212529;
+    height: 80%;
+    width: 100px;
+    margin-left: 10px;
+}
+#p1Content{
+    height: 80%;
+    width: 400px;
+    margin-left: 10px;
+}
+#p1Title{
+    font-size: 17px;
+    font-family: Rubik;
+
+}
+#p1Date{
+    font-family: Rubik;
+    font-size: 10px;
+    
+}
+.photo{
+    height: 50%;
+    width: 80%;
+    background-color: #212529;
+}
+.postOneTC{
+    color: #212529;
+    font-family: Rubik;
+    font-size: 12px;
+    width: 80%;
+    height: 20%;
+    background-color: #D5BDAF;
+    margin-top: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+}
+.testTitle{
+    font-size: 10px;
+    font-family: Rubik;
+    color: #212529;
+    background-color: #FFFED3;
+    padding: 5px;
+}
+.subDate{
+    font-family: Rubik;
+    color: #212529;
+    font-size: 8px;
+}
+.blogContainer{
+    height: 100%;
+    width: 90%;
+    padding: 10px;
+    margin-left: 30px;
+    
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+}
+.containMe{
+    display: flex;
+    flex-direction: column;
+}
+.titleAgain{
+    height: 10%;
+    width: 100%;
+    color: #212529;
+    font-family: Rubik;
+    font-weight: 400;
+
+    padding: 10px;
+}
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mainImg{
+    height: 80%;
+    width: 80%;
+}
+#compImg{
+    height: 50%;
+    width: 100%;
+}
+.caption{
+    font-family: Rubik;
+    color: #485057;
+    font-size: 12px;
+    margin: 10px;
+}
+a{
+    color: #51829B;
+}
+.thePara{
+    color: #212529;
+    font-family: Rubik;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 100;
+
+}
+.containThis{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+.subHeading{
+    color: #212529;
+    font-family: Rubik;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-right: 0px;
+}
+.concepts{
+    color: #212529;;
+    font-family: Rubik;
+    font-weight: 100;
+    margin-top: 10px;
+}
+footer{
+    background-color: #212529;
+    margin-top: 70px;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.socials{
+    display: inline;
+    margin-right: 40px;
+    height: 20%;
+    width: 100%;
+}
+.articleFooter{
+   
+    margin-top: 40px;
+    height: 70px;
+    padding: 20px;
+}
+
+.icon{
+    height: 20px;
+}
+.copy{
+    color: #9ca0a3;
+    font-family: Rubik;
+    font-size: 10px;
+}
