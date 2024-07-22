@@ -1,7 +1,7 @@
 .hero{
     margin: 0;
     padding: 0;
-    min-height: 520px;
+    min-height: 100vh;
     background-color: #CED4DA;
     width: 100%;
    
@@ -9,7 +9,7 @@
 .mainHero{
     margin: 0;
     padding: 0;
-    min-height: 520px;
+    min-height: 100vh;
     background-color: #CED4DA;
     width: 100%;
     display: flex;
