@@ -319,13 +319,13 @@ footer{
     align-items: center;
     position: absolute;
     top: 500px;
-    width: 842px;
+    width: 100%;
 }
 .articleFooter{
     background-color: #212529;
     height: 110px;
     top: 2230px;
-    width: 842px;
+    width: 100%;
 }
 .socials{
     display: inline;
